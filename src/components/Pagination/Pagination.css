@@ -1,0 +1,27 @@
+.pagination {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__item {
+    list-style-type: none;
+    display: inline;
+}
+
+.page__link {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin: 1px;
+}
+
+.page__link:hover {
+    background-color: lightgray;
+}

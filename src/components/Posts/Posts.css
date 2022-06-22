@@ -1,0 +1,33 @@
+.posts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .posts__list {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    place-items: center;
+  }
+  
+  .post__item {
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+  }
+  
+  .post__text, .post__title{
+    margin-left: 10px;
+  }
+
+  .posts__loading {
+    display: flex;
+    justify-content: center;
+  }
