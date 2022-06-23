@@ -1,0 +1,32 @@
+.about {
+    width: 100vw;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.about__row {
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 450px 1fr;
+}
+
+.row__img {
+   margin-left: 20px;
+}
+
+.row__img:first-child {
+    margin-top: 20px;
+}
+
+.row__img:last-child {
+    margin-bottom: 20px;
+}
+
+.row__text {
+    margin-top: 100px;
+    font-size: 18px;
+    margin-right: 50px;
+}
